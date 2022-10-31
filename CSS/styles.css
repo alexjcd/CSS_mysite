@@ -1,0 +1,13 @@
+body{
+  background-color: #F5EFE6;
+  margin-top: 0;
+}
+.main{
+  background-color: #7895B2;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
