@@ -1,15 +1,18 @@
 :root {
   --mainBackground: #ffffff;
 }
-.darkModeOn{
+
+.darkModeOn {
   --mainBackground: black;
   color: white;
 }
-.darkModeOff{
+
+.darkModeOff {
   --mainBackground: #ffffff;
   color: black;
 }
-body{
+
+body {
   background-color: var(--mainBackground);
   font-family: 'Inter';
   margin-top: 0;
@@ -17,34 +20,38 @@ body{
   margin-right: 0;
   padding-top: 5px;
 }
-.main{
+
+.main {
   /*background-color: #7895B2;
   background: linear-gradient(275.02deg, #FFB0F7 2.14%, #00E0FF 98.21%); */
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-/* font-size: 36px; */
+  /* font-size: 36px; */
 }
-.logo{
- border-radius: 50%;
+
+.logo {
+  border-radius: 50%;
 }
+
 .circle1 {
   position: relative;
   width: 28px;
   height: 28px;
   background: linear-gradient(211.02deg, #00E0FF 21.55%, #FFB0F7 78.75%);
-transform: rotate(-90deg);
-transition:
+  transform: rotate(-90deg);
+  transition:
 }
 
 .circle2 {
-  transform: translate(33%,33%);
+  transform: translate(33%, 33%);
   width: 17px;
   height: 17px;
   background: var(--mainBackground);
 }
-.articleContent{
+
+.articleContent {
   text-align: center;
   background: linear-gradient(275.02deg, #FFB0F7 2.14%, #00E0FF 98.21%);
 }
