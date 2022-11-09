@@ -26,6 +26,12 @@ h2{
   margin: 0, auto,0,auto;
   font-size: 1.5rem;
 }
+hr{
+  border-top: 10px dotted grey;
+  border-bottom: none;
+  width: 5%;
+  margin: 5% auto;
+}
 .main {
   /*background-color: #7895B2;
   background: linear-gradient(275.02deg, #FFB0F7 2.14%, #00E0FF 98.21%); */
@@ -67,11 +73,55 @@ h2{
   margin-bottom: 3%;
 
 }
-.roundPicture{
-  display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 40%;
-   max-width: 150px;
+.picture{
 
+   width: 40%;
+   max-width: 130px;
+   max-height: 150px;
+
+}
+.skillPicture{
+float: left;
+margin-right: 15px;
+}
+.handPicture{
+float: right;
+margin-left: 15px;
+}
+.skill-row{
+  width: 50%;
+  margin: 5% auto 5% auto;
+}
+h3{
+  text-align: left;
+}
+p{
+  text-align: left;
+  line-height: 2;
+}
+.btn{
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  margin: 3% auto;
 }
